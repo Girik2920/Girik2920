@@ -27,7 +27,9 @@ DevOps & Obs   CI/CD, CodePipeline, Azure DevOps, Jenkins, CloudWatch, Prometheu
 
 | Project                                                                                               | Why it matters                                                                                              |
 | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Crisis Pulse](https://github.com/Girik2920/crisis-pulse)                                             | Real-time AI threat and event intelligence platform: 10K+ events/sec on Kinesis, Lambda, DynamoDB, and Qdrant, with a hybrid-search RAG pipeline (FastAPI, LangChain, pgvector) producing sub-100ms geo-tagged summaries and Ragas-evaluated guardrails |
+| [ResolveAI](https://github.com/Girik2920/resolveai-agent-evals)                                       | AI agent evaluation platform: 60+ multi-turn scenarios across 6 industries, tool-call validation, hallucination and PII checks, prompt-version regression, and a Voice Lab, scored on a weighted rubric (Next.js, TypeScript, Vercel AI SDK, OpenAI, Zod) |
+| [Crisis Pulse](https://github.com/Girik2920/crisis-pulse)                                             | Real-time disaster intelligence and geo-alerting on AWS serverless: Kinesis ingest, classifier Lambda, DynamoDB + S3, EventBridge to SNS alerts, all in Terraform |
+| [TerpHealth Copilot](https://github.com/Girik2920/terphealth-copilot)                                 | Hackathon MVP that helps UMD students choose where to get care and estimate costs under the student health plan |
 | [ADPA](https://github.com/Girik2920/ADPA)                                                             | Natural-language-to-workflow system for orchestrating ML jobs with Step Functions, SageMaker, and Lambda    |
 | [NYC Taxi Data Stack](https://github.com/Girik2920/From-Street-to-SQL-End-to-End-NYC-Taxi-Data-Stack) | End-to-end data pipeline from ingestion to warehouse modeling and analytics delivery                        |
 
