@@ -1,76 +1,67 @@
 # Hi, I'm Girik Tripathi
 
-Backend and cloud platform engineer with 4+ years building distributed systems and automating production workflows on AWS. I am completing an MS in Data Science at the University of Maryland and targeting software engineering, backend engineering, and platform engineering roles. Based in San Francisco, CA.
+AI Software Engineer with 4+ years of experience designing scalable backend architectures, high-throughput data pipelines, and production-grade AI/LLM systems on AWS. I build event-driven microservices, RAG pipelines, and vector search infrastructure that handle terabyte-scale data with sub-100ms P99 latencies. M.S. in Data Science from the University of Maryland. Based in Tempe, AZ and open to relocate.
 
 ## What I Build
 
+- Agentic and RAG-based AI services with LangChain, LlamaIndex, and vector search
+- LLM evaluation frameworks and regression guardrails (pytest, LangSmith, Ragas)
 - Event-driven backend systems and microservices on AWS
-- Reliable data and platform pipelines (Spark, PySpark, Kafka, Airflow)
-- Internal tooling and automation for production-support and release workflows
-- Cloud-native services with observability, retries, and fault isolation
+- High-throughput data pipelines (Kafka, Spark, PySpark, Airflow)
 
 ## Engineering Focus
 
 ```
-Languages      Java, Python, SQL, Bash, Go
-Backend        REST APIs, Microservices, Event-Driven Architecture, gRPC, API Gateway
-Cloud & Infra  AWS, Lambda, ECS, DynamoDB, S3, SQS, SNS, EventBridge, Step Functions,
-               EMR, Kinesis, GCP, Terraform, Docker, Kubernetes
-Data Platform  Apache Spark, PySpark, Apache Kafka, Airflow, dbt, ETL/ELT, Schema Design
-DevOps & Obs   CI/CD, CodePipeline, Jenkins, Bitbucket, CloudWatch, IAM, WAF, Linux, Git, JIRA
+AI & GenAI     LangChain, LlamaIndex, PyTorch, RAG, Agentic Workflows, Vector Search,
+               pgvector, Qdrant, vLLM, FastAPI, LangSmith, Ragas
+Backend        Python, Java, Go, SQL, PostgreSQL, MySQL, REST APIs, gRPC, Microservices,
+               Event-Driven Systems, Distributed Systems, Asynchronous Queues, API Gateway
+Cloud & Infra  AWS Lambda, ECS, DynamoDB, S3, SQS, Azure OpenAI, Azure Functions, AKS,
+               Docker, Kubernetes, Terraform
+Data           Apache Spark, PySpark, Apache Kafka, Airflow, dbt, ETL Pipelines, Data Modeling
+Testing        pytest, unittest, Postman, Integration and E2E Testing, Locust, LLM Evaluation
+DevOps & Obs   CI/CD, CodePipeline, Azure DevOps, Jenkins, CloudWatch, Prometheus, Grafana, IAM, Linux, Git
 ```
 
 ## Selected Projects
 
 | Project                                                                                               | Why it matters                                                                                              |
 | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Crisis Pulse](https://github.com/Girik2920/crisis-pulse)                                             | Event-streaming backend ingesting 10K+ events/sec with sub-100ms P99 reads, using Kinesis, Lambda, DynamoDB, EventBridge, SNS, and Terraform |
+| [Crisis Pulse](https://github.com/Girik2920/crisis-pulse)                                             | Real-time AI threat and event intelligence platform: 10K+ events/sec on Kinesis, Lambda, DynamoDB, and Qdrant, with a hybrid-search RAG pipeline (FastAPI, LangChain, pgvector) producing sub-100ms geo-tagged summaries and Ragas-evaluated guardrails |
 | [ADPA](https://github.com/Girik2920/ADPA)                                                             | Natural-language-to-workflow system for orchestrating ML jobs with Step Functions, SageMaker, and Lambda    |
-| [NYC Taxi Data Stack](https://github.com/Girik2920/From-Street-to-SQL-End-to-End-NYC-Taxi-Data-Stack) | End-to-end engineering pipeline from ingestion to warehouse modeling and analytics delivery                 |
+| [NYC Taxi Data Stack](https://github.com/Girik2920/From-Street-to-SQL-End-to-End-NYC-Taxi-Data-Stack) | End-to-end data pipeline from ingestion to warehouse modeling and analytics delivery                        |
 
 ## Experience Snapshot
 
-**Goldman Sachs** - Software Engineer, DevOps & Backend Platform
-Dec 2025 - Jun 2026
+**DoorDash** - AI Software Engineer
+Jan 2026 - Present
 
-- Led production support and release validation for financial data platforms (Jenkins, Bitbucket, JIRA, Linux), cutting mean triage time by 30%.
-- Automated validation and log-checking with Python and shell scripts, eliminating 15+ hours/week of manual production-support effort.
-- Built SQL checks across 20+ financial tables to detect missing records, schema drift, and malformed payloads, sustaining 99% SLA adherence.
+- Architected an asynchronous agentic routing service (Python, LangChain, AWS ECS) automating merchant catalog classification, reducing menu ingestion delays by 38% across 50,000+ partner profiles.
+- Built a hybrid vector search pipeline (pgvector, Qdrant, Redis) for natural-language inventory search with sub-65ms P99 latency at 12,000+ requests/sec.
+- Established an LLM evaluation framework (pytest, LangSmith, Ragas) with regression guardrails, cutting support hallucination rates by 24%.
 
-**Accenture** - Software Development Engineer, Backend & Cloud Platform
+**Accenture** - Software Development Engineer
 Oct 2022 - Aug 2024
 
-- Architected event-driven microservices (API Gateway, Lambda, SQS, EMR, S3) processing 5 TB+/month for 20+ consumer APIs, cutting end-to-end latency by 42% and improving throughput by 2x under peak load.
-- Engineered fault-tolerant distributed workflows using idempotent processing, DLQs, and exponential backoff, achieving 99.9% uptime SLA.
-- Designed PySpark pipelines on AWS EMR for petabyte-scale compliance data and established CI/CD with blue/green rollbacks, reducing deployment lead time from 4 days to under 1 hour.
+- Engineered event-driven microservices (Java, Go, gRPC, AWS Lambda) replacing legacy monolith endpoints for a Fortune 500 client, boosting API throughput 2.5x under peak concurrency.
+- Built Kafka and PySpark streaming pipelines on AWS EMR processing 8 TB+/month, cutting nightly ETL windows by 40%.
+- Automated document processing and NLP extraction (PyTorch, Hugging Face, LlamaIndex) for vendor invoices, reducing manual reconciliation by 60%.
 
-**Mahaveer Construction Company** - Software Engineer, Backend Systems
+**Aspire Technolab** - Software Engineer
 Jan 2021 - Sep 2022
 
-- Built Python/Django REST APIs to digitize project tracking, billing, and vendor management across 15+ projects for 40+ users.
-- Designed normalized relational schemas governing 10,000+ records and automated reporting with Python, SQL, and shell scripts, cutting manual effort by 50%.
-
-**Tutort Academy** - Data Platform Intern
-Jan 2022 - Jun 2022
-
-- Built analytics layers and reporting workflows over 1M+ user events.
-- Automated internal reporting used by growth and product teams.
-
-**Tech Citi Software Consulting** - Software Engineering Intern
-Oct 2020 - Dec 2020
-
-- Built Python scripts (Pandas, SQL) to ingest, clean, and validate retail datasets, reducing reporting errors by 35%.
-- Debugged and hardened ETL pipelines, cutting fix overhead by 40%.
+- Developed RESTful microservices (Python, PostgreSQL, MySQL) on Azure App Services, improving API response times by 32%.
+- Designed normalized schemas for 100,000+ transactional records with automated validation, reducing data consistency errors by 45%.
 
 ## Open To
 
-- Software Engineer
+- AI Software Engineer
 - Backend Engineer
-- Platform Engineer
-- Cloud Engineer
+- ML Platform / LLM Infrastructure Engineer
+- Software Engineer
 
 ## Links
 
 - Portfolio: [girik2920.github.io/girik-portfolio](https://girik2920.github.io/girik-portfolio/)
 - LinkedIn: [linkedin.com/in/girik-tripathi29](https://www.linkedin.com/in/girik-tripathi29/)
-- Email: <girik29@umd.edu>
+- Email: <giriktripathi2@gmail.com>
