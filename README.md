@@ -1,6 +1,6 @@
 # Hi, I'm Girik Tripathi
 
-Backend and cloud platform engineer with 4+ years building distributed systems and automating production workflows on AWS. I completed an MS in Data Science at the University of Maryland and targeting software engineering, backend engineering, and platform engineering roles. Based in Boston, MA.
+Backend and cloud platform engineer with 4+ years building distributed systems and automating production workflows on AWS. I completed an MS in Data Science at the University of Maryland and am targeting software engineering, backend engineering, and platform engineering roles. Based in Boston, MA.
 
 ## What I Build
 
